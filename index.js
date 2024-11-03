@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: true }), express.static("public"));
 
 app.get("/", (req, res) => {
   const data = {
-    answer: `Welcome to the Band Generator 🤟`,
+    answer: `Welcome to the Band Name Generator 🤟`,
   };
   res.render("index.ejs", data);
   //Step 1 - Make the get route work and render the index.ejs file.
